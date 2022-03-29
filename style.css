@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    color: black;
+}
+body{
+background: linear-gradient(180deg, #0285E3 0%, rgba(0, 0, 0, 0.97) 100%),
+url(../img/logoclube1.jpg);
+background-position: center;
+background-size: cover;
+background-position-y: 0px;
+background-repeat: repeat;
+
+}
+header{
+    background-color:#FFF2E7; 
+    margin-bottom: 20px;
+    width: 100%;
+    height: 10vh;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.logo{
+    height: 50px;  
+}
+
+.logotipo{
+    font-family: 'Righteous', cursive;
+    font-size: 2rem;
+    letter-spacing: 0.4rem;
+    gap: 20px;
+    padding: 2rem;
+}
+
+.cabecalho-menu{
+   display: flex;
+   gap: 20px;
+}
+
+.menu-item{
+    font-family: 'sarala', sans-serif;
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 1.5rem;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    border: 1px red solid;
+    width: 720px;
+
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;   
+}
+.conteudo-titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: #FFF2E7;
+    gap: 20px;
+}
+.foto{
+    height: 250px;
+}
+
+.cabecalho.logo{
+    gap: 1px
+}
+
+#forms{
+    
+border: red solid 1px;
+float: right;
+    
+    
+}
+
+#conteudo{
+    width: 100%;
+    margin: 0 auto;
+    border: red solid 1px;
+    
+    
+    
+}
+#img{
+    width: 700px;
+
+
+}
+
+
+fieldset{
+    list-style: none;
+    padding: 1em;
+    border: none;
+}
+
+label{
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+    color: #FFF2E7;
+    font-size: 20px;
+}
+input{
+    width: 400px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    box-shadow: 4px 5px 4px 0px #07070740;
+}
+.Botao {
+    background: linear-gradient(180deg, #4200FF 0%, #260585 100%);;
+    width: 80px;
+    height: 30px;
+    border:none;
+    gap: 20px;
+    border-radius: 18px;
+    box-shadow: 4px 5px 4px 0px #07070740;
+    font-family: 'Righteous', cursive;
+     font-size: 16px;
+     color: #FFF2E7;
+     
+     
+}
+.Botao:hover{
+    background-color: #260585;
+    color: #0285E3;
+}
